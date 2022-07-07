@@ -1,0 +1,21 @@
+image: node
+
+cache:
+  key: ${CI_COMMIT_REF_SLUG}
+  paths:
+    - node_modules/
+    - .next/cache/
+
+pages:
+  script:
+    - yarn
+    - yarn build
+    - yarn export
+    - rm -rf public/*
+    - mv out/* public
+  artifacts:
+    paths:
+      - public
+  only:
+    - master
+
