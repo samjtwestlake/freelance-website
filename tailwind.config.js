@@ -8,4 +8,11 @@ module.exports = {
     extend: {},
   },
   plugins: [],
+  // theme: {
+  //   extend: {
+  //     colors: {
+  //       "ant-body-text": "var(--ant-body-text-color)"
+  //     },
+  //   },
+  // },
 }

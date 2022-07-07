@@ -18,3 +18,13 @@ a {
 * {
   box-sizing: border-box;
 }
+
+/* Overrides for merging tailwind default styling with ant design */
+
+svg {
+  vertical-align: initial;
+}
+
+:root {
+  /* --ant-body-text-color: rgba(0, 0, 0, 0.85) */
+}
