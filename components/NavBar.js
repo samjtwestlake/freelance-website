@@ -6,9 +6,9 @@ const NavBar = () => {
       <div className="p-3 flex justify-end text-xl">
         <ul className="flex gap-4 mb-0">
           <li>
-            <Link href="/services">
+            <Link href="/">
               <a className="hover:text-blue-400">
-                Services
+                Home
               </a>
             </Link>
           </li>
