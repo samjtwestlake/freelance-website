@@ -10,7 +10,6 @@ pages:
   script:
     - yarn
     - yarn build
-    - yarn export
     - rm -rf public/*
     - mv out/* public
   artifacts:
